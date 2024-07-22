@@ -372,9 +372,35 @@ transform: scale(1.1);
 }
 /*end*/
 
+/*footer*/
 
-  
-  
+.footer{
+  padding: 3rem 7%;
+  color: #fff8f2;
+}
+
+.footer .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  gap: 1.5rem;
+}
+
+.footer .box-container .box h3{
+  font-size: 2.2rem;
+  color: #222;
+  padding: 1rem 0;
+}
+
+.footer .box-container .box h3 i{
+  color: var(--color);
+}
+
+.footer .box-container .box a{
+  font-size: 1.4rem;
+  color: var(--color);
+  padding: 1rem 0;
+  display: block;
+}
   
   
   
