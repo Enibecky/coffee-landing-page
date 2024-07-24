@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Nunito:wght@200;300;400;500;600&display=swap');
 :root{
   --color:#be9c79;
   --box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.1);
@@ -40,6 +39,14 @@ section{
   color: var(--color);
   font-family: 'Merienda One', cursive;
 }
+
+.sub-heading{
+  background: url(images/heading-bg.png) no-repeat;
+  background: cover;
+  background-position: center;
+  text-align: center;
+}
+
 .btn{
   margin-top: 1rem;
   display: inline-block;
@@ -385,6 +392,10 @@ transform: scale(1.1);
   gap: 1.5rem;
 }
 
+.footer .box-container .box p{
+  font-size: 1.6rem;
+  color: #222;
+}
 .footer .box-container .box h3{
   font-size: 2.2rem;
   color: #222;
@@ -401,9 +412,49 @@ transform: scale(1.1);
   padding: 1rem 0;
   display: block;
 }
+
+.footer .box-container .box a:hover{
+  text-decoration: underline;
+}
+
+.footer .box-container .box a i{
+  padding-right: .5rem;
+}
+
+.footer .box-container .box form input[type="email"]{
+  width: 100%;
+  padding: 1rem 1.2rem;
+  font-size: 1.6rem;
+  color: #222;
+  margin: 1rem 0;
+  border: .1rem solid var(--color);
+  border-radius: .5rem;
+  text-transform: none;
+}
   
-  
-  
-  
+.footer .box-container .box form .btn{
+  background: none;
+}
+.footer .box-container .box form .btn:hover{
+  background: var(--color);
+}
+
+.footer .box-container .box .payment{
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.footer .credit{
+  text-align: center;
+  color: #222;
+  margin-top: 1rem;
+  font-size: 2rem;
+  padding-top: 2.5rem;
+  border-top: .2rem solid rgba(0,0,0,.1);
+}
+.footer .credit span{
+  color: var(--color);
+}
+
   
   
