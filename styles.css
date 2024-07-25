@@ -24,6 +24,18 @@ html{
   scroll-padding-top: 7rem;
 }
 
+html::-webkit-scrollbar{
+  height: .5rem;
+  width: 1rem;
+}
+
+html::-webkit-scrollbar-track{
+  background: transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+  background: var(--color);
+}
 section{
   padding: 3rem 9%;
 }
@@ -45,8 +57,16 @@ section{
   background: cover;
   background-position: center;
   text-align: center;
+  padding-top: 16rem;
+  padding-bottom: 8rem;
 }
 
+.sub-heading h1{
+  color: var(--color);
+  font-size: 4rem;
+  font-family: 'Merienda One',
+    cursive;
+}
 .btn{
   margin-top: 1rem;
   display: inline-block;
@@ -121,6 +141,7 @@ section{
     width: 50rem;
     height: 5rem;
     overflow: hidden;
+    background: #fff;
     display: flex;
     align-items: center;
     box-shadow: var(--box-shadow);
@@ -156,6 +177,7 @@ section{
   position: absolute;
   top: 110%; right: 110%;
   padding: 1rem;
+  background: #fff;
   border-radius: 5rem;
   box-shadow: var(--box-shadow);
   width: 35rem;
@@ -224,6 +246,7 @@ height: 7rem;
   position: absolute;
   top: 110%; right: -110%;
   width: 35rem;
+  background: #fff;
   box-shadow: var(--box-shadow);
   padding: 2rem;
   border-radius: .5rem;
@@ -455,6 +478,44 @@ transform: scale(1.1);
 .footer .credit span{
   color: var(--color);
 }
+/*end*/
+  
 
-  
-  
+
+
+
+/*about us*/
+.about{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+}
+.about .image img{
+  width: 100%;
+}
+
+.about .image{
+  flex: 1 1 40rem;
+}
+
+.about .content {
+  flex: 1 1 40rem;
+}
+
+.about .content h3{
+  font-size: 4.5rem;
+  color: var(--color);
+  font-family: 'Merienda One',cursive;
+  padding-bottom: 1rem;
+}
+
+.about .content p{
+  padding: 1rem 0;
+  line-height: 2;
+  font-size: 1.5rem;
+  color: #666;
+}
+
+/*about us*/
+
